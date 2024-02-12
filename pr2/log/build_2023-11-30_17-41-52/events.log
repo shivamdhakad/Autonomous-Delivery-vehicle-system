@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000848] (pr2) JobQueued: {'identifier': 'pr2', 'dependencies': OrderedDict()}
+[0.001074] (pr2) JobStarted: {'identifier': 'pr2'}
+[0.099602] (-) TimerEvent: {}
+[0.176917] (pr2) JobProgress: {'identifier': 'pr2', 'progress': 'cmake'}
+[0.178552] (pr2) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/pr2_ws/src/pr2', '-DCMAKE_INSTALL_PREFIX=/home/shivam/pr2_ws/src/pr2/install/pr2'], 'cwd': '/home/shivam/pr2_ws/src/pr2/build/pr2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/pr2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shivam/pr2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:56023'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1625,unix/ubuntu:/tmp/.ICE-unix/1625'), ('INVOCATION_ID', '06c8a6b601774679ab44c07af03ce345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d28cada_8abf_442d_9742_e340ee05476d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/pr2_ws/src/pr2/build/pr2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic')]), 'shell': False}
+[0.199974] (-) TimerEvent: {}
+[0.301474] (-) TimerEvent: {}
+[0.402949] (-) TimerEvent: {}
+[0.503773] (-) TimerEvent: {}
+[0.604387] (-) TimerEvent: {}
+[0.704861] (-) TimerEvent: {}
+[0.805904] (-) TimerEvent: {}
+[0.820228] (pr2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.906153] (-) TimerEvent: {}
+[1.007247] (-) TimerEvent: {}
+[1.107962] (-) TimerEvent: {}
+[1.208754] (-) TimerEvent: {}
+[1.309434] (-) TimerEvent: {}
+[1.324913] (pr2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.396894] (pr2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.410155] (-) TimerEvent: {}
+[1.511219] (-) TimerEvent: {}
+[1.525935] (pr2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.530321] (pr2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.611549] (-) TimerEvent: {}
+[1.637854] (pr2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.654308] (pr2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.656649] (pr2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.663131] (pr2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.712044] (-) TimerEvent: {}
+[1.761382] (pr2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.761987] (pr2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.812664] (-) TimerEvent: {}
+[1.858771] (pr2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.873640] (pr2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.876478] (pr2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.913138] (-) TimerEvent: {}
+[1.933624] (pr2) StdoutLine: {'line': b'-- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)\n'}
+[2.013886] (-) TimerEvent: {}
+[2.024256] (pr2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.025407] (pr2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.114104] (-) TimerEvent: {}
+[2.215182] (-) TimerEvent: {}
+[2.316487] (-) TimerEvent: {}
+[2.417302] (-) TimerEvent: {}
+[2.467270] (pr2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.504767] (pr2) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.518151] (-) TimerEvent: {}
+[2.619158] (-) TimerEvent: {}
+[2.720532] (-) TimerEvent: {}
+[2.821105] (-) TimerEvent: {}
+[2.921805] (-) TimerEvent: {}
+[2.978409] (pr2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.013768] (pr2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[3.022269] (-) TimerEvent: {}
+[3.123275] (-) TimerEvent: {}
+[3.184356] (pr2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.223857] (-) TimerEvent: {}
+[3.289014] (pr2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[3.321903] (pr2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[3.324341] (-) TimerEvent: {}
+[3.425556] (-) TimerEvent: {}
+[3.526706] (-) TimerEvent: {}
+[3.612506] (pr2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.627730] (-) TimerEvent: {}
+[3.630491] (pr2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.697081] (pr2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.728059] (-) TimerEvent: {}
+[3.732688] (pr2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.828693] (-) TimerEvent: {}
+[3.929578] (-) TimerEvent: {}
+[3.961189] (pr2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.961427] (pr2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.029844] (-) TimerEvent: {}
+[4.056217] (pr2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.057136] (pr2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.130438] (-) TimerEvent: {}
+[4.147856] (pr2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.151576] (pr2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.231446] (-) TimerEvent: {}
+[4.240711] (pr2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.240880] (pr2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.332076] (-) TimerEvent: {}
+[4.432736] (-) TimerEvent: {}
+[4.533578] (-) TimerEvent: {}
+[4.634459] (-) TimerEvent: {}
+[4.735596] (-) TimerEvent: {}
+[4.836508] (-) TimerEvent: {}
+[4.937135] (-) TimerEvent: {}
+[5.037743] (-) TimerEvent: {}
+[5.138674] (-) TimerEvent: {}
+[5.239847] (-) TimerEvent: {}
+[5.340983] (-) TimerEvent: {}
+[5.441893] (-) TimerEvent: {}
+[5.542886] (-) TimerEvent: {}
+[5.643655] (-) TimerEvent: {}
+[5.666782] (pr2) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)\n'}
+[5.691042] (pr2) StdoutLine: {'line': b'-- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)\n'}
+[5.719285] (pr2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[5.744159] (-) TimerEvent: {}
+[5.844852] (-) TimerEvent: {}
+[5.908415] (pr2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.914810] (pr2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.917103] (pr2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.917466] (pr2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.927426] (pr2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.927803] (pr2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.930866] (pr2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.934804] (pr2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.937772] (pr2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.945565] (-) TimerEvent: {}
+[5.947558] (pr2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.947907] (pr2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.950365] (pr2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.957516] (pr2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.960870] (pr2) StdoutLine: {'line': b'-- Generating done\n'}
+[5.963675] (pr2) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/pr2_ws/src/pr2/build/pr2\n'}
+[5.979592] (pr2) CommandEnded: {'returncode': 0}
+[5.981759] (pr2) JobProgress: {'identifier': 'pr2', 'progress': 'build'}
+[5.981820] (pr2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/pr2_ws/src/pr2/build/pr2', '--', '-j2', '-l2'], 'cwd': '/home/shivam/pr2_ws/src/pr2/build/pr2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/pr2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shivam/pr2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:56023'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1625,unix/ubuntu:/tmp/.ICE-unix/1625'), ('INVOCATION_ID', '06c8a6b601774679ab44c07af03ce345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d28cada_8abf_442d_9742_e340ee05476d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/pr2_ws/src/pr2/build/pr2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic')]), 'shell': False}
+[6.035051] (pr2) CommandEnded: {'returncode': 0}
+[6.046167] (-) TimerEvent: {}
+[6.072712] (pr2) JobProgress: {'identifier': 'pr2', 'progress': 'install'}
+[6.090838] (pr2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/pr2_ws/src/pr2/build/pr2'], 'cwd': '/home/shivam/pr2_ws/src/pr2/build/pr2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SSH_AGENT_PID', '1591'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam/pr2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1413'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/shivam/pr2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:56023'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1625,unix/ubuntu:/tmp/.ICE-unix/1625'), ('INVOCATION_ID', '06c8a6b601774679ab44c07af03ce345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d28cada_8abf_442d_9742_e340ee05476d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/pr2_ws/src/pr2/build/pr2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shivam/pr2_ws/install/pr2:/opt/ros/galactic')]), 'shell': False}
+[6.103984] (pr2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.104813] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf\n'}
+[6.105768] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.csv\n'}
+[6.106265] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.urdf.xacro\n'}
+[6.106792] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes\n'}
+[6.107160] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link4.STL\n'}
+[6.107812] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/leftcamera.STL\n'}
+[6.108351] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftwheel.STL\n'}
+[6.108995] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/robotarmbase.STL\n'}
+[6.114701] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link3.STL\n'}
+[6.115292] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/lidar.STL\n'}
+[6.116029] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/base_link.STL\n'}
+[6.116499] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/parcel.STL\n'}
+[6.116876] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightaxle.STL\n'}
+[6.117214] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontcamera.STL\n'}
+[6.117543] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rightcamera.STL\n'}
+[6.119332] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightwheel.STL\n'}
+[6.120216] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/endeffector.STL\n'}
+[6.120730] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link5.STL\n'}
+[6.121211] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightwheel.STL\n'}
+[6.123597] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftaxle.STL\n'}
+[6.124058] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link2.STL\n'}
+[6.124482] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftwheel.STL\n'}
+[6.124988] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftaxle.STL\n'}
+[6.125391] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link6.STL\n'}
+[6.127086] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightaxle.STL\n'}
+[6.127800] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch\n'}
+[6.128063] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/spawn_robot_ros2.launch.py\n'}
+[6.128334] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/gazebo.launch.py\n'}
+[6.128619] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/robot_description_publisher.py\n'}
+[6.128828] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds\n'}
+[6.129012] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds/empty_world.world\n'}
+[6.142942] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config\n'}
+[6.143254] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config/control.yaml\n'}
+[6.146628] (-) TimerEvent: {}
+[6.153715] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/include/pr2\n'}
+[6.154704] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/lib/pr2/robot_description_publisher.py\n'}
+[6.155867] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/package_run_dependencies/pr2\n'}
+[6.156435] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/parent_prefix_path/pr2\n'}
+[6.156901] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.sh\n'}
+[6.157356] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.dsv\n'}
+[6.157745] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.sh\n'}
+[6.158153] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.dsv\n'}
+[6.159288] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.bash\n'}
+[6.159761] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.sh\n'}
+[6.160222] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.zsh\n'}
+[6.160632] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.dsv\n'}
+[6.161055] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.dsv\n'}
+[6.161474] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/packages/pr2\n'}
+[6.161919] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config.cmake\n'}
+[6.162376] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config-version.cmake\n'}
+[6.162880] (pr2) StdoutLine: {'line': b'-- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.xml\n'}
+[6.171569] (pr2) CommandEnded: {'returncode': 0}
+[6.247601] (-) TimerEvent: {}
+[6.348506] (-) TimerEvent: {}
+[6.449633] (-) TimerEvent: {}
+[6.559289] (-) TimerEvent: {}
+[6.653865] (pr2) JobEnded: {'identifier': 'pr2', 'rc': 0}
+[6.654591] (-) EventReactorShutdown: {}

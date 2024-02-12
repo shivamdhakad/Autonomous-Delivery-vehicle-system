@@ -1,0 +1,111 @@
+[0.185s] Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/shivam/pr2_ws/src/pr2 -DCMAKE_INSTALL_PREFIX=/home/shivam/pr2_ws/src/pr2/install/pr2
+[0.820s] -- The C compiler identification is GNU 9.4.0
+[1.324s] -- The CXX compiler identification is GNU 9.4.0
+[1.396s] -- Check for working C compiler: /usr/bin/cc
+[1.525s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.530s] -- Detecting C compiler ABI info
+[1.639s] -- Detecting C compiler ABI info - done
+[1.654s] -- Detecting C compile features
+[1.656s] -- Detecting C compile features - done
+[1.663s] -- Check for working CXX compiler: /usr/bin/c++
+[1.761s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.761s] -- Detecting CXX compiler ABI info
+[1.858s] -- Detecting CXX compiler ABI info - done
+[1.873s] -- Detecting CXX compile features
+[1.876s] -- Detecting CXX compile features - done
+[1.933s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[2.024s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.504s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.977s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.013s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.288s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.322s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.612s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.630s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.696s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.732s] -- Looking for pthread.h
+[3.960s] -- Looking for pthread.h - found
+[3.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.056s] -- Looking for pthread_create in pthreads
+[4.147s] -- Looking for pthread_create in pthreads - not found
+[4.151s] -- Looking for pthread_create in pthread
+[4.240s] -- Looking for pthread_create in pthread - found
+[4.240s] -- Found Threads: TRUE  
+[5.666s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[5.690s] -- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)
+[5.718s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.908s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.914s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.916s] -- Configured cppcheck include dirs: 
+[5.916s] -- Configured cppcheck exclude dirs and/or files: 
+[5.927s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.927s] -- Configured cpplint exclude dirs and/or files: 
+[5.930s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.934s] -- Added test 'lint_cmake' to check CMake code style
+[5.937s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.947s] -- Added test 'uncrustify' to check C / C++ code style
+[5.947s] -- Configured uncrustify additional arguments: 
+[5.949s] -- Added test 'xmllint' to check XML markup files
+[5.957s] -- Configuring done
+[5.960s] -- Generating done
+[5.963s] -- Build files have been written to: /home/shivam/pr2_ws/src/pr2/build/pr2
+[5.980s] Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/shivam/pr2_ws/src/pr2 -DCMAKE_INSTALL_PREFIX=/home/shivam/pr2_ws/src/pr2/install/pr2
+[5.981s] Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+[6.035s] Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+[6.091s] Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2
+[6.103s] -- Install configuration: ""
+[6.104s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf
+[6.105s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.csv
+[6.105s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.urdf.xacro
+[6.106s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes
+[6.106s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link4.STL
+[6.107s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/leftcamera.STL
+[6.107s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftwheel.STL
+[6.108s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/robotarmbase.STL
+[6.114s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link3.STL
+[6.115s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/lidar.STL
+[6.115s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/base_link.STL
+[6.116s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/parcel.STL
+[6.116s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightaxle.STL
+[6.116s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontcamera.STL
+[6.117s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rightcamera.STL
+[6.118s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightwheel.STL
+[6.119s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/endeffector.STL
+[6.120s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link5.STL
+[6.120s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightwheel.STL
+[6.123s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftaxle.STL
+[6.123s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link2.STL
+[6.124s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftwheel.STL
+[6.124s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftaxle.STL
+[6.124s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link6.STL
+[6.126s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightaxle.STL
+[6.127s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch
+[6.127s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/spawn_robot_ros2.launch.py
+[6.127s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/gazebo.launch.py
+[6.128s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/robot_description_publisher.py
+[6.128s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds
+[6.128s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds/empty_world.world
+[6.142s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config
+[6.142s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config/control.yaml
+[6.153s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/include/pr2
+[6.154s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/lib/pr2/robot_description_publisher.py
+[6.155s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/package_run_dependencies/pr2
+[6.155s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/parent_prefix_path/pr2
+[6.156s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.sh
+[6.156s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.dsv
+[6.157s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.sh
+[6.158s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.dsv
+[6.158s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.bash
+[6.159s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.sh
+[6.159s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.zsh
+[6.160s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.dsv
+[6.160s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.dsv
+[6.161s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/packages/pr2
+[6.161s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config.cmake
+[6.161s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config-version.cmake
+[6.162s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.xml
+[6.171s] Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2

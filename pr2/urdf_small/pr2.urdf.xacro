@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="pr2" xmlns:xacro="http://ros.org/wiki/xacro"> 
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0160407129415905 4.76225956412557E-09 0.0140486146722937"
+        rpy="0 0 0" />
+      <mass
+        value="0.410357068977205" />
+      <inertia
+        ixx="0.000418788756531432"
+        ixy="-9.28467394687386E-11"
+        ixz="-3.59143232411381E-05"
+        iyy="0.00127199341013218"
+        iyz="3.62694935706805E-11"
+        izz="0.00130699187151445" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="frontleftaxle">
+    <inertial>
+      <origin
+        xyz="-3.6708758179016E-08 0.00160501797411967 -0.0153578857101685"
+        rpy="0 0 0" />
+      <mass
+        value="0.00221047465481593" />
+      <inertia
+        ixx="1.59436629612062E-07"
+        ixy="-4.68507438388118E-13"
+        ixz="-1.89978471337968E-14"
+        iyy="1.44013488445306E-07"
+        iyz="2.25239906987313E-08"
+        izz="3.27372262362586E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontleftaxle.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontleftaxle.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontleftaxleJ"
+    type="continuous">
+    <origin
+      xyz="0.055 0.018 -0.007"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="frontleftaxle" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="frontleftwheel">
+    <inertial>
+      <origin
+        xyz="1.37993414668636E-06 -0.00571002744944018 -8.47958521552061E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.00752041906364689" />
+      <inertia
+        ixx="6.54074623348507E-07"
+        ixy="-2.96932659672287E-11"
+        ixz="4.66413291760755E-11"
+        iyy="1.11415061388056E-06"
+        iyz="1.30363668348103E-11"
+        izz="6.54114671458885E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontleftwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontleftwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontleftwheelJ"
+    type="continuous">
+    <origin
+      xyz="0 0.02235 -0.023"
+      rpy="0 0 0" />
+    <parent
+      link="frontleftaxle" />
+    <child
+      link="frontleftwheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="100"
+      velocity="1000" />
+  </joint>
+  <link
+    name="frontrightaxle">
+    <inertial>
+      <origin
+        xyz="3.67087581928938E-08 -0.00160501797411966 -0.0153578857101685"
+        rpy="0 0 0" />
+      <mass
+        value="0.00221047465481593" />
+      <inertia
+        ixx="1.59436629612063E-07"
+        ixy="-4.68507438382914E-13"
+        ixz="1.89978471491337E-14"
+        iyy="1.44013488445306E-07"
+        iyz="-2.25239906987314E-08"
+        izz="3.27372262362587E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontrightaxle.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontrightaxle.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontrightaxleJ"
+    type="continuous">
+    <origin
+      xyz="0.055 -0.018 -0.007"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="frontrightaxle" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="frontrightwheel">
+    <inertial>
+      <origin
+        xyz="1.61562917457697E-06 0.00571002744944018 1.13992428586729E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.0075204190636469" />
+      <inertia
+        ixx="6.54044943303502E-07"
+        ixy="3.23564733412199E-11"
+        ixz="-1.02897423390187E-11"
+        iyy="1.11415061388056E-06"
+        iyz="-2.16691877317806E-12"
+        izz="6.54144351503891E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontrightwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/frontrightwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="frontrightwheelJ"
+    type="continuous">
+    <origin
+      xyz="0 -0.02235 -0.023"
+      rpy="0 0 0" />
+    <parent
+      link="frontrightaxle" />
+    <child
+      link="frontrightwheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="101"
+      velocity="1000" />
+  </joint>
+  <link
+    name="rearrightaxle">
+    <inertial>
+      <origin
+        xyz="3.67087581859549E-08 -0.00160501797411966 -0.0153578857101685"
+        rpy="0 0 0" />
+      <mass
+        value="0.00221047465481593" />
+      <inertia
+        ixx="1.59436629612063E-07"
+        ixy="-4.68507438398918E-13"
+        ixz="1.8997847129938E-14"
+        iyy="1.44013488445306E-07"
+        iyz="-2.25239906987314E-08"
+        izz="3.27372262362587E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearrightaxle.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearrightaxle.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearrightaxleJ"
+    type="continuous">
+    <origin
+      xyz="-0.04 -0.018 -0.007"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rearrightaxle" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="rearrightwheel">
+    <inertial>
+      <origin
+        xyz="-2.2334695384818E-08 0.00571002744944018 1.61949160692315E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.00752041906364689" />
+      <inertia
+        ixx="6.54145196148152E-07"
+        ixy="3.99542524547272E-12"
+        ixz="4.60443346110655E-12"
+        iyy="1.11415061388056E-06"
+        iyz="3.21818812556904E-11"
+        izz="6.54044098659241E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearrightwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearrightwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearrightwheelJ"
+    type="continuous">
+    <origin
+      xyz="0 -0.02235 -0.023"
+      rpy="0 0 0" />
+    <parent
+      link="rearrightaxle" />
+    <child
+      link="rearrightwheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="100"
+      velocity="1000" />
+  </joint>
+  <link
+    name="rearleftaxle">
+    <inertial>
+      <origin
+        xyz="-3.67087581859549E-08 0.00160501797411966 -0.0153578857101685"
+        rpy="0 0 0" />
+      <mass
+        value="0.00221047465481593" />
+      <inertia
+        ixx="1.59436629612063E-07"
+        ixy="-4.68507438391657E-13"
+        ixz="-1.89978471373407E-14"
+        iyy="1.44013488445306E-07"
+        iyz="2.25239906987313E-08"
+        izz="3.27372262362587E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearleftaxle.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearleftaxle.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearleftaxleJ"
+    type="continuous">
+    <origin
+      xyz="-0.04 0.018 -0.007"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rearleftaxle" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="1000" />
+  </joint>
+  <link
+    name="rearleftwheel">
+    <inertial>
+      <origin
+        xyz="1.37993414670717E-06 -0.00571002744944019 -8.47958521545122E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.00752041906364689" />
+      <inertia
+        ixx="6.54074623348507E-07"
+        ixy="-2.96932659672423E-11"
+        ixz="4.6641329176028E-11"
+        iyy="1.11415061388056E-06"
+        iyz="1.30363668348073E-11"
+        izz="6.54114671458885E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearleftwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/rearleftwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rearleftwheelJ"
+    type="continuous">
+    <origin
+      xyz="0 0.02235 -0.023"
+      rpy="0 0 0" />
+    <parent
+      link="rearleftaxle" />
+    <child
+      link="rearleftwheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="100"
+      velocity="1000" />
+  </joint>
+  <link
+    name="lidar">
+    <inertial>
+      <origin
+        xyz="0 0 -0.00660138330917023"
+        rpy="0 0 0" />
+      <mass
+        value="0.0013297002274864" />
+      <inertia
+        ixx="2.79264907781175E-08"
+        ixy="-1.95768641709798E-40"
+        ixz="4.69237345562297E-25"
+        iyy="2.79264907781175E-08"
+        iyz="1.15022307757499E-40"
+        izz="2.38900096632939E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidarJ"
+    type="fixed">
+    <origin
+      xyz="0.0605 0 0.0692"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="parcel">
+    <inertial>
+      <origin
+        xyz="0.005 -3.46944695195361E-18 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00195" />
+      <inertia
+        ixx="5.28124999999999E-08"
+        ixy="2.39171744220322E-24"
+        ixz="-3.18873961147103E-24"
+        iyy="3.24999999999999E-08"
+        iyz="2.00930052262641E-24"
+        izz="5.28124999999999E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/parcel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/parcel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="parcelJ"
+    type="fixed">
+    <origin
+      xyz="0.045 0.00066668 0.029467"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="parcel" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="robotarmbase">
+    <inertial>
+      <origin
+        xyz="3.70557709254704E-06 -9.80675937990727E-06 0.00128017462019858"
+        rpy="0 0 0" />
+      <mass
+        value="0.000309399607540476" />
+      <inertia
+        ixx="2.50113280705559E-09"
+        ixy="1.0390183233662E-13"
+        ixz="-1.69171435870364E-13"
+        iyy="2.48003724414733E-09"
+        iyz="-4.68705103307537E-13"
+        izz="4.61410087526242E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/robotarmbase.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/robotarmbase.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="robotarmbaseJ"
+    type="fixed">
+    <origin
+      xyz="-0.00823419977814178 0.00470107489150899 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="robotarmbase" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="4.05353176289799E-06 -0.000825035299184013 0.0081635488756338"
+        rpy="0 0 0" />
+      <mass
+        value="0.00135371118029069" />
+      <inertia
+        ixx="2.47232777333225E-08"
+        ixy="4.87920305747319E-12"
+        ixz="3.85127992071156E-13"
+        iyy="2.31453969064667E-08"
+        iyz="1.83621014872878E-09"
+        izz="2.18630817645387E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="link2J"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="robotarmbase" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="5.6042134121876E-05 0.0173807616943372 0.0119161964180449"
+        rpy="0 0 0" />
+      <mass
+        value="0.00369844675523992" />
+      <inertia
+        ixx="1.96490105283159E-07"
+        ixy="-4.45071510874404E-10"
+        ixz="3.91632126638912E-11"
+        iyy="4.29636440598899E-08"
+        iyz="-1.26892230405079E-09"
+        izz="1.93141685996317E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="link3J"
+    type="continuous">
+    <origin
+      xyz="0 -2.10748915089598E-05 0.00895999999999927"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="-0.0174820817871428 0.0032506261787303 0.000555930562482149"
+        rpy="0 0 0" />
+      <mass
+        value="0.0019053862279049" />
+      <inertia
+        ixx="1.57297348421602E-08"
+        ixy="1.5804034478745E-08"
+        ixz="1.28546597633244E-09"
+        iyy="9.72299626917121E-08"
+        iyz="-2.41017966628855E-10"
+        izz="9.96139453251885E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="link4J"
+    type="continuous">
+    <origin
+      xyz="0.00100863880629145 0.0429005667533133 0.00341865291559114"
+      rpy="0 0 -1.5707963267949" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0.000256372276588868 0.100507207426455 -0.994936297221381" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="-1.02580084911479E-05 0.000493908143218411 0.000666912918788065"
+        rpy="0 0 0" />
+      <mass
+        value="0.00031612789976997" />
+      <inertia
+        ixx="2.35272421299001E-09"
+        ixy="2.22917740835825E-12"
+        ixz="-2.14374707276135E-12"
+        iyy="2.1897952852631E-09"
+        iyz="1.92005796622229E-10"
+        izz="1.89505464468355E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="link5J"
+    type="continuous">
+    <origin
+      xyz="-0.0391504231207446 0.00747577758749505 0.00882672441673824"
+      rpy="-1.5707963267949 0 1.5707963267949" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0.017344100313261 -0.999611629555553 -0.0218122039605226" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="-3.1991569490096E-05 -0.000522896673984474 0.000643808904161599"
+        rpy="0 0 0" />
+      <mass
+        value="0.000316127339530098" />
+      <inertia
+        ixx="2.35179056678025E-09"
+        ixy="9.3852082294469E-12"
+        ixz="2.42021990833169E-11"
+        iyy="2.20480244749629E-09"
+        iyz="-1.78265261935365E-10"
+        izz="1.87895016937868E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="link6J"
+    type="continuous">
+    <origin
+      xyz="-2.01762072979256E-05 -0.000177032975760241 0.0080970397829169"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="0.00249119734515548 -0.999757968010586 -0.0218586215286168" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+  <link
+    name="endeffector">
+    <inertial>
+      <origin
+        xyz="0.000101278669672114 9.27390546767437E-05 -0.00165578278058202"
+        rpy="0 0 0" />
+      <mass
+        value="7.94398802649847E-05" />
+      <inertia
+        ixx="2.14992433927919E-10"
+        ixy="3.68862959883633E-12"
+        ixz="-6.62495604610237E-12"
+        iyy="2.25149174900859E-10"
+        iyz="-2.33437876497004E-12"
+        izz="3.48203044138739E-10" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/endeffector.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pr2/meshes/endeffector.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="endeffectorJ"
+    type="continuous">
+    <origin
+      xyz="-0.000361788443957583 -0.00015707804299693 0.00714311917933817"
+      rpy="0 0 0" />
+    <parent
+      link="link6" />
+    <child
+      link="endeffector" />
+    <axis
+      xyz="0.0505714906287917 0.0219566736087906 -0.998479057777187" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="10"
+      velocity="100" />
+  </joint>
+
+
+<!-- Additional code -->
+<!-- # controller -->
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <!-- # Velocity Controllers for car -->
+
+    <joint name="frontleftwheelJ">
+      <command_interface name="velocity">
+          <param name="min">-1000.0</param>
+          <param name="max">1000.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="frontrightwheelJ">
+      <command_interface name="velocity">
+          <param name="min">-1000.0</param>
+          <param name="max">1000.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rearleftwheelJ">
+      <command_interface name="velocity">
+          <param name="min">-1000.0</param>
+          <param name="max">1000.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rearrightwheelJ">
+      <command_interface name="velocity">
+          <param name="min">-1000.0</param>
+          <param name="max">1000.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint> 
+
+    <!-- # Position Controller for car -->
+    <joint name="frontleftaxleJ">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rearleftaxleJ">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="frontrightaxleJ">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rearrightaxleJ">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+
+
+    <!-- # Position Controller for Robot Arm -->
+    <joint name="link2J">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link3J">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link4J">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link5J">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link6J">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+
+    <joint name="endeffectorJ">
+      <command_interface name="position">
+          <param name="min">-3.14</param>
+          <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link2J">
+      <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link3J">
+       <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link4J">
+       <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link5J">
+       <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="link6J">
+       <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+
+    <joint name="endeffectorJ">
+       <command_interface name="velocity">
+          <param name="min">-1000</param>
+          <param name="max">1000</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+
+  <!--  # Gazebo Plugin for the Controller -->
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+        <parameters>$(find pr2)/config/control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+
+
+  <!-- vacuum_gripper Plugin -->
+  <gazebo>
+  <plugin name='vacuum_gripper' filename='libgazebo_ros_vacuum_gripper.so'>
+
+    <!-- This part can be commented out if not required -->
+    <ros>
+
+      <!-- Add a namespace -->
+
+      <namespace>/demo</namespace>
+
+      <!-- Remapping service and topic names -->
+      <remapping>switch:=custom_switch</remapping>
+      <remapping>grasping:=custom_grasping</remapping>
+    </ros>
+
+    <!-- Link associated with gripper -->
+    <link_name>endeffector</link_name>
+
+    <!-- Max distance to attract entities -->
+    <max_distance>10.0</max_distance>
+
+    <!-- List of entities to be not attracted by the gripper -->
+    <fixed>ground_plane</fixed>
+    <fixed>wall</fixed>
+    <fixed>base_link</fixed>
+
+  </plugin>
+  </gazebo>
+
+  
+  <!-- Parcel odometry plugin -->
+  <gazebo>
+  <plugin filename="libodometry_plugin.so" name="odometry_plugin">
+    <!-- Name of the link for which the odometry is required -->
+    <frame>endeffector</frame>
+    <!-- <frame>parcel</frame> -->
+    <!-- Any arbitray name for the world frame -->
+    <!-- <world_frame>fixed_world</world_frame> -->
+    <world_frame>robotarmbase</world_frame>
+  </plugin>
+  </gazebo>
+
+
+
+  
+</robot>

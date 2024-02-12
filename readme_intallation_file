@@ -1,0 +1,13 @@
+
+
+sudo apt install ros-galactic-ros2-control ros-galactic-ros2-controllers ros-galactic-gazebo-ros2-control
+sudo apt-get install ros-galactic-controller-manager
+
+# if there is error loading robot state publisher
+sudo apt install ros-galactic-robot-state-publisher
+
+sudo apt install ros-galactic-xacro
+
+#for teleop file
+sudo pip3 install pynput
+pip3 install rclpy

@@ -1,0 +1,57 @@
+[0.247s] Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+[0.322s] Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+[0.469s] Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2
+[0.485s] -- Install configuration: ""
+[0.485s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.csv
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//urdf/pr2.urdf.xacro
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link4.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/leftcamera.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftwheel.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/robotarmbase.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link3.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/lidar.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/base_link.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/parcel.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightaxle.STL
+[0.486s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontcamera.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rightcamera.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightwheel.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/endeffector.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link5.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearrightwheel.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontleftaxle.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link2.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftwheel.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/rearleftaxle.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/link6.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//meshes/frontrightaxle.STL
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/spawn_robot_ros2.launch.py
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/debug.launch.py
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/gazebo.launch.py
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/display.launch.py
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//launch/robot_description_publisher.py
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds
+[0.487s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//worlds/empty_world.world
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config
+[0.488s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2//config/control.yaml
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/include/pr2
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/lib/pr2/robot_description_publisher.py
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/package_run_dependencies/pr2
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/parent_prefix_path/pr2
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.sh
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/ament_prefix_path.dsv
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.sh
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/environment/path.dsv
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.bash
+[0.488s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.sh
+[0.489s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.zsh
+[0.489s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/local_setup.dsv
+[0.489s] -- Installing: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.dsv
+[0.504s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/ament_index/resource_index/packages/pr2
+[0.504s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config.cmake
+[0.504s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/cmake/pr2Config-version.cmake
+[0.504s] -- Up-to-date: /home/shivam/pr2_ws/src/pr2/install/pr2/share/pr2/package.xml
+[0.516s] Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2

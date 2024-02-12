@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/shivam/pr2_ws/install/pr2/include/**",
+        "/home/shivam/pr2_ws/install/odometry/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/shivam/pr2_ws/src/odometry/include/**",
+        "/home/shivam/pr2_ws/src/pr2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

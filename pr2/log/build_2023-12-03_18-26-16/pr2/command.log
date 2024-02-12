@@ -1,0 +1,4 @@
+Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/shivam/pr2_ws/src/pr2/build/pr2 -- -j2 -l2
+Invoking command in '/home/shivam/pr2_ws/src/pr2/build/pr2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2
+Invoked command in '/home/shivam/pr2_ws/src/pr2/build/pr2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/shivam/pr2_ws/src/pr2/build/pr2
