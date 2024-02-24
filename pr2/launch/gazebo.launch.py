@@ -18,8 +18,7 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('pr2'),
         'worlds', 
-        'city_view_ads_world.world'
-    
+        'empty_world.world'
     )
     # 'empty_world.world' and 'small_world.world' 'city_view_ads_world.world'
  #pr2_lts_newmodel/src/pr2/worlds/city_view_ads_world.world
