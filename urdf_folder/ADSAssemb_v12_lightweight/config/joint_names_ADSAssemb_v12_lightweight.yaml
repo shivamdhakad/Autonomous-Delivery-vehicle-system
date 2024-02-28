@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'link2J', 'link3J', 'link4J', 'link5J', 'link6J', 'endeffectorJ', 'frontleftaxleJ', 'frontleftwheelJ', 'frontrightaxleJ', 'frontrightwheelJ', 'rearleftaxleJ', 'rearleftwheelJ', 'rearrightaxleJ', 'rearrightwheelJ', ]
